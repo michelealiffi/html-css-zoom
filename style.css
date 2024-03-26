@@ -15,6 +15,24 @@ img {
     padding-top: 3px;
 }
 
+footer {
+    background-color: rgb(48, 48, 48);
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .header-container {
     display: flex;
     justify-content: end;
@@ -55,4 +73,22 @@ img {
     margin-right: 150px;
     font-size: 13px;
     padding: 3px;
+}
+
+.foot-left {
+    display: flex;
+    padding: 10px;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+}
+
+.camera {
+    margin-left: 20px;
+}
+
+.foot-center {
+    justify-content: center;
 }
