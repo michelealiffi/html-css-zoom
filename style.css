@@ -35,6 +35,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .row {
@@ -52,4 +53,6 @@ img {
     color: white;
     margin-top: 150px;
     margin-right: 150px;
+    font-size: 13px;
+    padding: 3px;
 }
