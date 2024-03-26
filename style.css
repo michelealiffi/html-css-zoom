@@ -17,6 +17,7 @@ img {
 
 footer {
     background-color: rgb(48, 48, 48);
+    display: flex;
 }
 
 h2 {
@@ -90,5 +91,64 @@ p {
 }
 
 .foot-center {
-    justify-content: center;
+    display: flex;
+    padding: 10px;
+    margin-left: 450px;
+}
+
+.partecipants-div {
+    margin-left: 20px;
+}
+
+.partecipants-div .icon{
+    margin-left: 50px;
+}
+
+.polling-div {
+    margin-left: 20px;
+}
+
+.polling-div .icon {
+    margin-left: 5px;
+}
+
+.share-div {
+    margin-left: 20px;
+}
+
+.share {
+    filter: invert(0%);
+    margin-left: 30px;
+}
+
+.record-div {
+    margin-left: 20px;
+}
+
+.record-div .icon {
+    margin-left: 7px;
+}
+
+.rooms-div {
+    margin-left: 20px;
+}
+
+.rooms-div .icon {
+    margin-left: 45px;
+}
+
+.more-div {
+    margin-left: 20px;
+}
+
+.foot-right {
+    background-color: grey;
+    margin-left: 330px;
+}
+
+.foot-right p {
+    color: red;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
